@@ -5,11 +5,7 @@
 // It's been provided as a convenience to get you started writing code faster.
 //
 
-function helloWorld($name = null)
+function helloWorld($name = "World")
 {
-  if ($name) {
     return "Hello, $name!";
-  } else {
-    return "Hello, World!";
-  }
 }
